@@ -1,0 +1,18 @@
+model,metric,value,n
+model_a,median_ratio_to_ref_Y0,1,44
+model_a,median_ratio_to_ref_Y1,1,44
+model_a,median_ratio_to_ref_Y2,1,44
+model_a,tool_induced_Y0_to_Y1_median,0,44
+model_a,tool_induced_Y0_to_Y1_IQR,0,44
+model_a,tool_induced_Y0_to_Y2_median,0,44
+model_a,tool_induced_Y0_to_Y2_IQR,0,44
+model_a,seed_induced_CV_median_Y0,0,10
+model_b,median_ratio_to_ref_Y0,1,20
+model_b,median_ratio_to_ref_Y1,1,20
+model_b,median_ratio_to_ref_Y2,1,20
+model_b,tool_induced_Y0_to_Y1_median,0,20
+model_b,tool_induced_Y0_to_Y1_IQR,0,20
+model_b,tool_induced_Y0_to_Y2_median,0.642857,20
+model_b,tool_induced_Y0_to_Y2_IQR,1.875,20
+model_b,seed_induced_CV_median_Y0,0,4
+model_a vs model_b,ordering_flip_fraction_Y0_vs_Y2,,0
