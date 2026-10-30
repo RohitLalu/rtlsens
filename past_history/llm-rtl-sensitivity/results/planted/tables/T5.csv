@@ -1,0 +1,18 @@
+model,metric,value,n
+planted_a,median_ratio_to_ref_Y0,1,298
+planted_a,median_ratio_to_ref_Y1,1,298
+planted_a,median_ratio_to_ref_Y2,1,298
+planted_a,tool_induced_Y0_to_Y1_median,0,298
+planted_a,tool_induced_Y0_to_Y1_IQR,0,298
+planted_a,tool_induced_Y0_to_Y2_median,0,298
+planted_a,tool_induced_Y0_to_Y2_IQR,0.583333,298
+planted_a,seed_induced_CV_median_Y0,0,45
+planted_b,median_ratio_to_ref_Y0,1,218
+planted_b,median_ratio_to_ref_Y1,1,218
+planted_b,median_ratio_to_ref_Y2,1,218
+planted_b,tool_induced_Y0_to_Y1_median,0,218
+planted_b,tool_induced_Y0_to_Y1_IQR,0,218
+planted_b,tool_induced_Y0_to_Y2_median,0,218
+planted_b,tool_induced_Y0_to_Y2_IQR,0.5,218
+planted_b,seed_induced_CV_median_Y0,0,37
+planted_a vs planted_b,ordering_flip_fraction_Y0_vs_Y2,,0

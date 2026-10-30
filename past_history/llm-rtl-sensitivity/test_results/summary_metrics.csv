@@ -1,0 +1,38 @@
+section,metric,value,notes
+suite,pytest,38 passed,unit tests
+suite,acceptance_A1_A10,9 PASS + 1 PARTIAL,A9 PARTIAL (no live server on planted config)
+suite,planted_P1_P7,7 PASS,planted-truth checks
+suite,acceptance_exit_code,0,no FAIL
+realserver,A9_live_same_seed_identical,TRUE,real Ollama qwen2.5-coder:1.5b
+realserver,A9_live_diff_seed_differs,TRUE,seed 1000 vs 1001
+smoke,generations,36,0 failed
+smoke,eval_rows,72,
+smoke,synth_rows,24,
+smoke,no_code_rate_pct,0.0,below 20% red-flag
+smoke,gen_latency_s_mean,3.18,M1 CPU small models; min 0.63 max 11.56
+smoke,finish_reason_length,0,no truncation (all stop)
+smoke,determinism_raw_identity,1.0,T=0 both models
+smoke,determinism_outcome_identity,1.0,T=0 both models
+pass_at_1_pp,model_a_B0,50,qwen2.5-coder:1.5b; demonstration only (3 problems)
+pass_at_1_pp,model_a_P1,50,
+pass_at_1_pp,model_a_X1,50,
+pass_at_1_pp,model_a_X2,50,
+pass_at_1_pp,model_a_N1,50,
+pass_at_1_pp,model_b_B0,33.3,llama3.2:3b; demonstration only
+pass_at_1_pp,model_b_P1,50,
+pass_at_1_pp,model_b_X1,33.3,
+pass_at_1_pp,model_b_X2,33.3,
+pass_at_1_pp,model_b_N1,33.3,
+outcomes,model_a_PASS,19,
+outcomes,model_a_MISMATCH,7,
+outcomes,model_a_COMPILE_ERROR,10,
+outcomes,model_a_NO_CODE,0,
+outcomes,model_b_PASS,11,
+outcomes,model_b_MISMATCH,10,
+outcomes,model_b_COMPILE_ERROR,15,
+outcomes,model_b_NO_CODE,0,
+yosys_cells_ref,Prob005_notgate_Y0_Y1_Y2,1/1/1,identical under yosys 0.56 and 0.62
+yosys_cells_ref,Prob011_norgate_Y0_Y1_Y2,1/1/1,identical under yosys 0.56 and 0.62
+yosys_cells_ref,Prob012_xnorgate_Y0_Y1_Y2,1/1/1,identical under yosys 0.56 and 0.62
+timings,selftest_evaluate_s,11.1,M1 1 CPU
+timings,analyze_s,3.2,M1 1 CPU

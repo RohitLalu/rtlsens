@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-30T06:42:47+00:00",
+  "git_commit_harness": "55ec682fbf001c4651d9d525f286d08baa53a284",
+  "git_commit_verilog_eval": "c498220d0a52248f8e3fdffe279075215bde2da6",
+  "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "iverilog": "Icarus Verilog version 12.0 (stable) ()",
+  "yosys": "Yosys 0.56 (git sha1 9c447ad9d4b1ea589369364eea38b4d70da2c599, clang++ 17.0.0 -fPIC -O3)",
+  "ollama": "0.40.13",
+  "hardware": {
+    "cpu": "arm",
+    "gpu": "none detected",
+    "ram_gb": 0.0
+  },
+  "models": [
+    {
+      "name": "model_a",
+      "digest": "d7372fd828518a4d38b1eb196c673c31a85f2ed302b3d1e406c4c2d1b64a0668",
+      "quant": "Q4_K_M"
+    },
+    {
+      "name": "model_b",
+      "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "quant": "Q4_K_M"
+    }
+  ],
+  "problem_subset_sha256": "8d0f5ed3baa041a70871beaed7db8c1d9e038a3976f8cb2a4045fee6b6b46694",
+  "system_prompt_sha256": "df5b33be1b2dae794e3d7e2ae80b89cb83901cdda862fcd0cb0de2718c4506d5",
+  "sampling": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "max_tokens": 1024,
+    "seeds": [
+      1000,
+      1001
+    ],
+    "t0": {
+      "temperature": 0.0,
+      "top_p": 0.01,
+      "max_tokens": 1024,
+      "seed": 0
+    }
+  },
+  "factor_levels": {
+    "P": [
+      "P0",
+      "P1"
+    ],
+    "X": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "N": [
+      "N0",
+      "N1"
+    ],
+    "Y": [
+      "Y0",
+      "Y1",
+      "Y2"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+model_a,model_b,config,delta_ab_pp,sign,reversal_prob,sigma_seed_a_pp,sigma_seed_b_pp
+model_a,model_b,B0,16.6667,1,0.375,70.7107,47.1405
+model_a,model_b,P1,0,0,,70.7107,23.5702
+model_a,model_b,X1,16.6667,1,0.375,70.7107,47.1405
+model_a,model_b,X2,16.6667,1,0.375,70.7107,47.1405
+model_a,model_b,N1,16.6667,1,0.375,70.7107,47.1405

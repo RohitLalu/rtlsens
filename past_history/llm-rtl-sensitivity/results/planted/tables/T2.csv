@@ -1,0 +1,11 @@
+model,config,sigma_seed_obs_pp,sigma_seed_pred_pp,ratio_obs_over_pred,run_min_pp,run_max_pp,within_0p5_2x
+planted_a,B0,3.12299,4.98145,0.626925,46.6667,55,True
+planted_a,P1,3.86501,5.0369,0.767338,40,51.6667,True
+planted_a,X1,3.76796,5.17592,0.727979,35,48.3333,True
+planted_a,X2,4.40608,4.63148,0.951334,48.3333,63.3333,True
+planted_a,N1,2.72166,4.45831,0.610468,51.6667,60,True
+planted_b,B0,3.83293,4.70749,0.814219,33.3333,45,True
+planted_b,P1,4.33547,4.82726,0.898122,30,46.6667,True
+planted_b,X1,3.75154,4.68119,0.801407,31.6667,43.3333,True
+planted_b,X2,4.23463,3.97135,1.0663,38.3333,51.6667,True
+planted_b,N1,4.02538,4.61813,0.871647,33.3333,46.6667,True

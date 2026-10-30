@@ -1,0 +1,9 @@
+model,factor,delta_pp,ci_lo_pp,ci_hi_pp,sigma_seed_pp,material,verdict,gains,losses,flip_rate,F_P,F_S,excess_flip,excess_lo,excess_hi
+model_a,P1,0,0,0,70.7107,False,not distinguishable from noise,0,0,0,0,1,-1,-1,-1
+model_a,X1,0,0,0,70.7107,False,not distinguishable from noise,0,0,0,,,,,
+model_a,X2,0,0,0,70.7107,False,not distinguishable from noise,0,0,0,,,,,
+model_a,N1,0,0,0,70.7107,False,not distinguishable from noise,0,0,0,,,,,
+model_b,P1,16.6667,0,50,47.1405,False,not distinguishable from noise,0.166667,0,0.166667,0.166667,0.666667,-0.5,-1,0
+model_b,X1,0,0,0,47.1405,False,not distinguishable from noise,0,0,0,,,,,
+model_b,X2,0,0,0,47.1405,False,not distinguishable from noise,0,0,0,,,,,
+model_b,N1,0,0,0,47.1405,False,not distinguishable from noise,0,0,0,,,,,

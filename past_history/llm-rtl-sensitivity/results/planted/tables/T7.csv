@@ -1,0 +1,15 @@
+model,item,effect,unit,normalized,verdict
+planted_a,Module-name auto-rename (N1),5.33333,pp |delta pass@1|,1.70776,"detectable, below 2*sigma_seed"
+planted_a,Extraction: last fenced block (X1),4.66667,pp |delta pass@1|,1.49429,"detectable, below 2*sigma_seed"
+planted_a,Extraction: raw module span (X2),3.83333,pp |delta pass@1|,1.22745,"detectable, below 2*sigma_seed"
+planted_a,Seed (sampling),3.12299,pp (sigma_seed),1,noise reference
+planted_a,Prompt wording (P1),2.33333,pp |delta pass@1|,0.747146,not distinguishable from noise
+planted_a,Prompt wording: excess per-problem flips,1.55556,pp of samples,,CI includes 0
+planted_a,Yosys script (Y0 vs Y2),10.8696,% median |cell change|,,report script
+planted_b,Extraction: raw module span (X2),8.16667,pp |delta pass@1|,2.13066,material
+planted_b,Seed (sampling),3.83293,pp (sigma_seed),1,noise reference
+planted_b,Prompt wording (P1),3.5,pp |delta pass@1|,0.913139,not distinguishable from noise
+planted_b,Module-name auto-rename (N1),1.16667,pp |delta pass@1|,0.30438,"detectable, below 2*sigma_seed"
+planted_b,Extraction: last fenced block (X1),0,pp |delta pass@1|,0,not distinguishable from noise
+planted_b,Prompt wording: excess per-problem flips,2.57407,pp of samples,,CI includes 0
+planted_b,Yosys script (Y0 vs Y2),14.2857,% median |cell change|,,report script

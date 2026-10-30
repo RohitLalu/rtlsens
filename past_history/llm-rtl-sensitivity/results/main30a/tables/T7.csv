@@ -1,0 +1,8 @@
+model,item,effect,unit,normalized,verdict
+model_a,Seed (sampling),6.89426,pp (sigma_seed),1,noise reference
+model_a,Extraction: raw module span (X2),0.666667,pp |delta pass@1|,0.0966988,not distinguishable from noise
+model_a,Prompt wording (P1),0.333333,pp |delta pass@1|,0.0483494,not distinguishable from noise
+model_a,Extraction: last fenced block (X1),0,pp |delta pass@1|,0,not distinguishable from noise
+model_a,Module-name auto-rename (N1),0,pp |delta pass@1|,0,not distinguishable from noise
+model_a,Prompt wording: excess per-problem flips,-6.55556,pp of samples,,CI includes 0
+model_a,Yosys script (Y0 vs Y2),0,% median |cell change|,,report script

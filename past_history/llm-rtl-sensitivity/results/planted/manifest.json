@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-10-30T06:10:05+00:00",
+  "git_commit_harness": "55ec682fbf001c4651d9d525f286d08baa53a284",
+  "git_commit_verilog_eval": "c498220d0a52248f8e3fdffe279075215bde2da6",
+  "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "iverilog": "Icarus Verilog version 12.0 (stable) ()",
+  "yosys": "Yosys 0.56 (git sha1 9c447ad9d4b1ea589369364eea38b4d70da2c599, clang++ 17.0.0 -fPIC -O3)",
+  "ollama": "stub",
+  "hardware": {
+    "cpu": "arm",
+    "gpu": "none detected",
+    "ram_gb": 0.0
+  },
+  "models": [
+    {
+      "name": "planted_a",
+      "digest": "stub",
+      "quant": "stub"
+    },
+    {
+      "name": "planted_b",
+      "digest": "stub",
+      "quant": "stub"
+    }
+  ],
+  "problem_subset_sha256": "ba43673c01f297c98a2bfc1ed0689049c5487ac16d5efa2f85813ae18872d339",
+  "system_prompt_sha256": "df5b33be1b2dae794e3d7e2ae80b89cb83901cdda862fcd0cb0de2718c4506d5",
+  "sampling": {
+    "temperature": 0.85,
+    "top_p": 0.95,
+    "max_tokens": 1024,
+    "seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009
+    ],
+    "t0": {
+      "temperature": 0.0,
+      "top_p": 0.01,
+      "max_tokens": 1024,
+      "seed": 0
+    }
+  },
+  "factor_levels": {
+    "P": [
+      "P0",
+      "P1"
+    ],
+    "X": [
+      "X0",
+      "X1",
+      "X2"
+    ],
+    "N": [
+      "N0",
+      "N1"
+    ],
+    "Y": [
+      "Y0",
+      "Y1",
+      "Y2"
+    ]
+  }
+}

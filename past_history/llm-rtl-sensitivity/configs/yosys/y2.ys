@@ -1,0 +1,6 @@
+hierarchy -top TopModule
+proc
+opt
+techmap
+abc -g AND,NAND,OR,NOR,XOR,XNOR
+opt_clean

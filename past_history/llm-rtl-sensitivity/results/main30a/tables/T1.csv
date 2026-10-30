@@ -1,0 +1,6 @@
+model,config,pass_at_1_pp,ci_lo_pp,ci_hi_pp,n_problems,K
+model_a,B0,15,8.33333,23,30,10
+model_a,P1,14.6667,8,22,30,10
+model_a,X1,15,8.33333,23,30,10
+model_a,X2,14.3333,7.66667,22.3333,30,10
+model_a,N1,15,8.33333,23,30,10

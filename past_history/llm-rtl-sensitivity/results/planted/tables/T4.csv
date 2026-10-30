@@ -1,0 +1,6 @@
+model_a,model_b,config,delta_ab_pp,sign,reversal_prob,sigma_seed_a_pp,sigma_seed_b_pp
+planted_a,planted_b,B0,13.3333,1,0,3.12299,3.83293
+planted_a,planted_b,P1,7.5,1,0.085,3.86501,4.33547
+planted_a,planted_b,X1,8.66667,1,0.06,3.76796,3.75154
+planted_a,planted_b,X2,9,1,0.045,4.40608,4.23463
+planted_a,planted_b,N1,17.5,1,0,2.72166,4.02538

@@ -1,0 +1,9 @@
+model,metric,value,n
+model_a,median_ratio_to_ref_Y0,1,44
+model_a,median_ratio_to_ref_Y1,1,44
+model_a,median_ratio_to_ref_Y2,1,44
+model_a,tool_induced_Y0_to_Y1_median,0,44
+model_a,tool_induced_Y0_to_Y1_IQR,0,44
+model_a,tool_induced_Y0_to_Y2_median,0,44
+model_a,tool_induced_Y0_to_Y2_IQR,0,44
+model_a,seed_induced_CV_median_Y0,0,10

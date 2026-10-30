@@ -1,0 +1,9 @@
+model,factor,delta_pp,ci_lo_pp,ci_hi_pp,sigma_seed_pp,material,verdict,gains,losses,flip_rate,F_P,F_S,excess_flip,excess_lo,excess_hi
+planted_a,P1,-2.33333,-8.5,3.66667,3.12299,False,not distinguishable from noise,0.145,0.168333,0.313333,0.313333,0.297778,0.0155556,-0.0255556,0.0574074
+planted_a,X1,-4.66667,-7.5,-2,3.12299,False,"detectable, below 2*sigma_seed",0.015,0.0616667,0.0766667,,,,,
+planted_a,X2,3.83333,2.5,5.33333,3.12299,False,"detectable, below 2*sigma_seed",0.0383333,0,0.0383333,,,,,
+planted_a,N1,5.33333,3.16667,7.66667,3.12299,False,"detectable, below 2*sigma_seed",0.0533333,0,0.0533333,,,,,
+planted_b,P1,3.5,-2.16667,8.8375,3.83293,False,not distinguishable from noise,0.163333,0.128333,0.291667,0.291667,0.265926,0.0257407,-0.0142593,0.0659259
+planted_b,X1,0,-1,1.16667,3.83293,False,not distinguishable from noise,0.00666667,0.00666667,0.0133333,,,,,
+planted_b,X2,8.16667,5.5,11.1667,3.83293,True,material,0.0816667,0,0.0816667,,,,,
+planted_b,N1,1.16667,0.5,2,3.83293,False,"detectable, below 2*sigma_seed",0.0116667,0,0.0116667,,,,,

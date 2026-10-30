@@ -1,0 +1,11 @@
+model,config,sigma_seed_obs_pp,sigma_seed_pred_pp,ratio_obs_over_pred,run_min_pp,run_max_pp,within_0p5_2x
+model_a,B0,70.7107,40.8248,1.73205,0,100,True
+model_a,P1,70.7107,40.8248,1.73205,0,100,True
+model_a,X1,70.7107,40.8248,1.73205,0,100,True
+model_a,X2,70.7107,40.8248,1.73205,0,100,True
+model_a,N1,70.7107,40.8248,1.73205,0,100,True
+model_b,B0,47.1405,33.3333,1.41421,0,66.6667,True
+model_b,P1,23.5702,23.5702,1,33.3333,66.6667,True
+model_b,X1,47.1405,33.3333,1.41421,0,66.6667,True
+model_b,X2,47.1405,33.3333,1.41421,0,66.6667,True
+model_b,N1,47.1405,33.3333,1.41421,0,66.6667,True
